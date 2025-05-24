@@ -1,0 +1,43 @@
+iframe{
+    width:800px;
+    Height: 500px;
+}
+
+img {
+        width:800px;
+        Height: 500px;
+}
+
+#Entrevistas {
+    margin-top: 50px;
+    color: #3e4a61;
+}
+
+#Premios {
+    margin-top: 75px;
+    color: #3e4a61;
+}
+#Camaras {
+    margin-top: 75px;
+    color: #3e4a61;
+}
+
+#Curiosidades {
+    margin-top: 75px;
+    color: #3e4a61;
+}
+
+section li {
+    margin-top: 50px;
+}
+
+#ArbolG {
+    justify-content:flex-start;
+    height:900px;
+    width: 700px;
+}
+
+#Triqueta{
+    height: 500px;
+    width: 600px;
+}

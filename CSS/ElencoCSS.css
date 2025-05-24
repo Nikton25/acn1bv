@@ -1,0 +1,35 @@
+img{
+    height: 300;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+main li{
+    margin: auto;
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+    list-style: none;
+    margin-left: 10px;
+    text-align:center;
+    padding: 20px;
+    font-size:medium;
+}
+
+main h3 {
+    color: #d4b106;
+}
+
+.nav h3 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: x-large;
+    color: #3e4a61;
+}
+strong{
+    color: #8a0e2c;
+}
+
+em, a{
+    color: #d4b106;
+}
