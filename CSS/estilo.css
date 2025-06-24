@@ -65,11 +65,10 @@ nav a {
     width: 100%;
 }
 
-/* a partir de aca footer /*/
 .footer {
     background-color: hsl(312, 6%, 16%);
     border: double 2px #f5f5f5;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 20px;
     margin: auto;
     text-decoration: none;
@@ -137,9 +136,6 @@ h1,h2{
 h3{
     color: #3e4a61	;
 }
-
-
-
 
 
 .imagenes{
