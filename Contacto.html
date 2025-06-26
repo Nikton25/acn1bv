@@ -26,10 +26,21 @@
         </nav>
         
         <main>
-            <section class="contacto-mantenimiento">
-                <h2>Estamos trabajando en ello</h2>
-                <p>La página de contacto estará disponible en breve.</p>
-                <p>Gracias por tu paciencia!</p>
+            <section>
+                <h2>Contacto</h2>
+                <form action="confirmacion.html" method="get">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autofocus><br><br>
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required><br><br>
+
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo" placeholder="nombre@email.com" required><br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="10" cols="50" placeholder="Dejanos tu mensaje..."></textarea><br><br>
+                    <input type="submit" value="Enviar" style="background-color: #d4b106; font-weight: bold; padding: 10px 20px; border: none; border-radius: 5px;">
+                </form>
             </section>
         </main>
 
