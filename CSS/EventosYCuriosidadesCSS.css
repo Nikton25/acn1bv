@@ -27,9 +27,6 @@ img {
     color: #3e4a61;
 }
 
-section li {
-    margin-top: 50px;
-}
 
 #ArbolG {
     justify-content:flex-start;
@@ -40,4 +37,26 @@ section li {
 #Triqueta{
     height: 500px;
     width: 600px;
+}
+
+main li {
+    list-style: none;
+}
+.entrevistas {
+    display: flex;
+    flex-direction: column;
+}
+
+.premios {
+    display: flex;
+    flex-direction: column;
+}
+
+#premiacion:hover {
+    border: 3px;
+    border-style: ridge;
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    border-color: gold;
+    transition: transform 0.4s ease;
 }

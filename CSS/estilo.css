@@ -27,6 +27,7 @@ nav a {
     text-align: center;
     margin-top: 5px;
     font-size: x-large;
+    color: #3e4a61;
 }
 
 .nav ul{
@@ -138,14 +139,7 @@ h3{
 }
 
 
-.imagenes{
-    display: flex;
-    justify-content:baseline;
-    margin-top: 20px;
-    gap: 20px;
-    width: 300px;
-    height: auto;
-}
+
 
 #cueva{
     margin-top: 0px;

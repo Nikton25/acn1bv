@@ -5,31 +5,54 @@ img{
     margin-bottom: 0;
 }
 main li{
-    margin: auto;
     border: 2px solid white;
     width: 400px;
     height: 400px;
     list-style: none;
-    margin-left: 10px;
     text-align:center;
     padding: 20px;
     font-size:medium;
+    margin-right: auto;
 }
 
 main h3 {
     color: #d4b106;
 }
 
-.nav h3 {
-    text-align: center;
-    margin-top: 5px;
-    font-size: x-large;
-    color: #3e4a61;
-}
-strong{
+strong {
     color: #8a0e2c;
 }
 
-em, a{
+em, a {
     color: #d4b106;
+}
+
+.personajes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul.personajes li {
+    border: 1px solid white;
+    padding: 15px;
+    width: 300px;
+    background-color: #111;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+ul.personajes li:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    border-color: gold;
+}
+
+ul.personajes li img {
+    transition: transform 0.4s ease;
+}
+
+ul.personajes li:hover img {
+    transform: scale(1.05);
 }
