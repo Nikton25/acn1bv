@@ -1,6 +1,9 @@
 .fondo{
-    background-color:#0a0a0a;
+    background: url(../Imagenes/fondoDark2.jpg) center center / cover no-repeat fixed;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;    
     color: #a6a6a6	;
+    background-blend-mode: overlay;
     font-family:  'Roboto','  sans-serif';
     font-size: 1.2rem;     
     font-weight: bold;     
@@ -27,7 +30,7 @@ nav a {
     text-align: center;
     margin-top: 5px;
     font-size: x-large;
-    color: #3e4a61;
+    color: #d3d2d2;
 }
 
 .nav ul{
@@ -130,12 +133,12 @@ body{
 }
 
 h1,h2{
-    color: #3e4a61	;
+    color: #d3d2d2	;
     text-decoration: underline;
 }
 
 h3{
-    color: #3e4a61	;
+    color: #d3d2d2	;
 }
 
 

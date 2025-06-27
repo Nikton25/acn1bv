@@ -1,0 +1,9 @@
+.contacto-mantenimiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-mantenimiento img {
+    height: 700px;
+}
