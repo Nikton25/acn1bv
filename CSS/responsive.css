@@ -51,6 +51,11 @@ img, video, iframe {
         gap: 10px;
     }
 
+    #arbolG {
+        height: auto;
+        width: auto;
+    }
+
 }
 
 /* Celulares grandes de 600px a 767px */
