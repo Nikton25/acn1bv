@@ -56,6 +56,18 @@ img, video, iframe {
         width: auto;
     }
 
+    ul.personajes li:hover {
+        transform: none;
+        box-shadow: none;
+        border-color: white;
+    }
+
+    .nav li a:hover, 
+    .footer li a:hover {
+        color: #d4b106 !important;
+        transform: none !important;
+    }
+
 }
 
 /* Celulares grandes de 600px a 767px */
@@ -92,5 +104,17 @@ img, video, iframe {
     .imagenes img {
         width: 100%;
         height: auto;
+    }
+
+    ul.personajes li:hover {
+        transform: none;
+        box-shadow: none;
+        border-color: white;
+    }
+
+    .nav li a:hover, 
+    .footer li a:hover {
+        color: #d4b106 !important; 
+        transform: none !important;
     }
 }
