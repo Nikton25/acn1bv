@@ -8,6 +8,20 @@
     text-decoration: none;
     border-radius: 5px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 75%;
+    height: auto;
+    margin-bottom: 15px;
+}
 
 #botonMagico {
     display: inline-block;
@@ -26,6 +40,7 @@
     padding: 20px;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .confirmacion p {
