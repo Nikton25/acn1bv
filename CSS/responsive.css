@@ -68,6 +68,10 @@ img, video, iframe {
         transform: none !important;
     }
 
+    ul.personajes li:hover img {
+        transform: none;
+    }
+
 }
 
 /* Celulares grandes de 600px a 767px */
@@ -85,7 +89,7 @@ img, video, iframe {
 
     ul.personajes li img {
         max-width: 45% !important;   
-        min-height: 50%;
+        min-height: auto;
         height: auto !important;
         margin-left: 10px;                 
     }
@@ -114,7 +118,11 @@ img, video, iframe {
 
     .nav li a:hover, 
     .footer li a:hover {
-        color: #d4b106 !important; 
-        transform: none !important;
+        color: #d4b106; 
+        transform: none;
+    }
+    
+    ul.personajes li:hover img {
+        transform: none;
     }
 }
